@@ -30,9 +30,9 @@ export default function Home() {
   return (
     <div className="custom-cursor">
       <div className="bg-[#1C3676] h-screen w-screen flex flex-col-reverse md:flex-row">
-        <div className="flex basis-1/2 h-fit align-middle justify-center my-auto relative">
+        <div className="flex basis-1/2 h-screen md:h-max-[60%] lg:h-max-[100%] align-middle justify-center my-auto relative">
           <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-            <div className="text-black font-bold z-20 text-md justify-center text-center max-w-[50%] md:max-w-[36%] lg:max-w-[24%]">
+            <div className="text-black font-bold z-20 text-lg justify-center text-center max-w-[50%] md:max-w-[36%] lg:max-w-[24%]">
               <Typewriter
                 options={{
                   strings: [displayText],
@@ -48,7 +48,7 @@ export default function Home() {
             alt=""
             src={scrollImage}
             height={596}
-            width={400} 
+            width={600} 
             className="relative"
           />
         </div>
