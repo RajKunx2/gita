@@ -48,12 +48,15 @@ export default function Home() {
             alt=""
             src={scrollImage}
             height={596}
-            width={600} 
+            width={600}
             className="relative"
           />
         </div>
-        <div className="flex basis-1/2 justify-center align-middle my-auto">
-          <Image alt="" src={Main} height={400} width={600} />
+        <div
+          className="flex basis-1/2 justify-center align-middle my-auto"
+          id="main"
+        >
+          <Image alt="" src={Main} height={600} width={900} />
         </div>
       </div>
     </div>

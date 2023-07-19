@@ -2,9 +2,17 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-body {
+/* body {
     background-image: url("./../../assets/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+} */
+
+#main {
+    background-image: url('../../assets/main2.jpg');
+    background-color: #755E34;
+    /* Set the background color */
+    background-blend-mode: multiply;
+    /* Choose a blending mode */
 }
