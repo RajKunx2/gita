@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import Main from "../../assets/main.png";
+import Main from "../../assets/main2.jpg";
 import Scroll from "../../assets/scroll2.gif";
 import NewImage from "../../assets/new_scroll.png";
 import Typewriter from "typewriter-effect";
